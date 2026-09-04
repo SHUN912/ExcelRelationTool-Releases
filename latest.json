@@ -1,16 +1,19 @@
 {
   "schema_version": 1,
-  "version": "v050.0 r3",
-  "version_code": 500003,
-  "tag": "v050.0-r3",
-  "published": false,
+  "version": "v050.0 r4",
+  "version_code": 500004,
+  "tag": "v050.0-r4",
+  "published": true,
   "mandatory": false,
   "installer_name": "ExcelRelationTool_Setup.exe",
-  "installer_url": "",
-  "sha256": "",
+  "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+  "sha256": "B3BE820B05A3B2D6A29506B1DF8ACDF4E6C35E5F1D5BF9B08955DE5750DE4996",
   "release_notes": [
-    "用于验证 v050.0 r2 能否发现更高版本",
-    "本次仅测试版本发现，不提供安装包",
-    "确认发现新版本后再进入自动下载与 SHA-256 校验阶段"
+    "新增 GitHub Releases 更新检查架构",
+    "新增启动后后台静默检查更新",
+    "新增手动检查更新入口",
+    "新增安装包下载进度显示",
+    "新增 SHA-256 完整性校验",
+    "本版本用于验证 v050.0 r3 到 v050.0 r4 的软件内更新下载链路"
   ]
 }
