@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "version": "v050.0 r2",
+  "version_code": 500002,
+  "tag": "v050.0-r2",
+  "published": false,
+  "mandatory": false,
+  "installer_name": "ExcelRelationTool_Setup.exe",
+  "installer_url": "",
+  "sha256": "",
+  "release_notes": [
+    "v050.0 自动更新架构测试阶段",
+    "更新检查改为读取公开仓库中的 latest.json，不再调用 GitHub REST API"
+  ]
+}
