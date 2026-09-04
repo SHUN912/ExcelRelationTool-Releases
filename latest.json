@@ -1,20 +1,18 @@
 {
   "schema_version": 1,
-  "version": "v050.0 r6",
-  "version_code": 500006,
-  "tag": "v050.0-r6",
+  "version": "v050.0 r7",
+  "version_code": 500007,
+  "tag": "v050.0-r7",
   "published": true,
   "mandatory": false,
   "installer_name": "ExcelRelationTool_Setup.exe",
   "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-  "sha256": "20E8DFF37A9C983D73F5AF066627B95AECC7222EAAA81D9E881539A3BA280722",
+  "sha256": "57BDE05560B19E61AAFB90395B44B85019392C31E512FA8ADBA060B6ED8264F4",
   "release_notes": [
-    "验证 v050.0 r5 到 v050.0 r6 的完整自动更新闭环",
-    "支持发现新版本后直接点击立即更新",
-    "支持安装包下载进度显示",
-    "支持 SHA-256 完整性校验",
-    "校验通过后自动退出旧版本",
-    "通过独立更新器静默覆盖安装",
+    "安装包下载改为 Windows curl.exe，提高 GitHub Release 大文件下载稳定性",
+    "修复下载完成后被误判为取消的问题",
+    "保留 SHA-256 完整性校验",
+    "更新安装改为可见的 Inno Setup 安装向导",
     "安装完成后自动重新启动 ExcelRelationTool",
     "现有业务处理逻辑保持不变"
   ]
