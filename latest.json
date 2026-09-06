@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "version": "v050.0 r14",
-  "version_code": 500014,
-  "tag": "v050.0-r14",
+  "version": "v050.0 r15",
+  "version_code": 500015,
+  "tag": "v050.0-r15",
   "published": true,
   "mandatory": false,
   "installer_name": "ExcelRelationTool_Setup.exe",
   "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-  "sha256": "75CE4B88E10203127A49C49DED4EDFBA6E4668545911FECAEAC1E0CF127A4E05"
+  "sha256": "FBAD035DCD8DFFBE816B5971EF5EBDC5CA662884F3E127F3B24F3A5C866CA087"
 }
