@@ -1,7 +1,11 @@
 {
+  "schema_version": 1,
   "version": "v051",
   "version_code": 510000,
   "tag": "v051",
-  "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v051/ExcelRelationTool_Setup.exe",
+  "published": true,
+  "mandatory": false,
+  "installer_name": "ExcelRelationTool_Setup.exe",
+  "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
   "sha256": "5EA0C7C70C842865B4B8A4E06043415C85AC519A317538C3B439F0955D716E25"
 }
