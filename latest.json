@@ -1,11 +1,17 @@
 {
-    "schema_version":  1,
-    "version":  "v051.4 r10",
-    "version_code":  514010,
-    "tag":  "v051.4-r10",
+    "version":  "v052.1 r2",
+    "version_code":  521002,
     "published":  true,
-    "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "22E032B2AE92EAA0973DB2F8D6A5E437E6E98DFE77A231406972647D34017FB2"
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r2/ExcelRelationTool_Setup.exe",
+    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r2/ExcelRelationTool_Setup.exe",
+    "sha256":  "29a907174409fcd155a0c7a4186a05bf9553aababb0b7b0ef3ac29ce62d3c941",
+    "release_notes":  [
+                          "功能一字段结构升级为动态标准骨架：非必要字段可自动删减、补位和插入，必要业务字段继续严格校验。",
+                          "第15步完成后的中间文件诊断高亮改为独立后台执行，不再阻塞完成弹窗。",
+                          "第5步新增行诊断高亮改为关键字段标记，显著减少大批量样式写入。",
+                          "非月末第13步不再整表扫描，直接复制上一步结果。",
+                          "第12步大文件优先复制到 Windows 本地临时目录后解析，减少 SMB 随机读取耗时。",
+                          "业务判断规则保持不变。"
+                      ]
 }
