@@ -1,17 +1,17 @@
 {
-    "version":  "v052.1 r2",
-    "version_code":  521002,
+    "version":  "v052.1 r3",
+    "version_code":  521003,
     "published":  true,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r2/ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r2/ExcelRelationTool_Setup.exe",
-    "sha256":  "29a907174409fcd155a0c7a4186a05bf9553aababb0b7b0ef3ac29ce62d3c941",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r3/ExcelRelationTool_Setup.exe",
+    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r3/ExcelRelationTool_Setup.exe",
+    "sha256":  "4238cffc79f0eb7b261e123ca33ba0fe272eaa18c65c5831e96e81fa03f90583",
     "release_notes":  [
-                          "功能一字段结构升级为动态标准骨架：非必要字段可自动删减、补位和插入，必要业务字段继续严格校验。",
-                          "第15步完成后的中间文件诊断高亮改为独立后台执行，不再阻塞完成弹窗。",
-                          "第5步新增行诊断高亮改为关键字段标记，显著减少大批量样式写入。",
-                          "非月末第13步不再整表扫描，直接复制上一步结果。",
-                          "第12步大文件优先复制到 Windows 本地临时目录后解析，减少 SMB 随机读取耗时。",
-                          "业务判断规则保持不变。"
+                          "统一主界面与更新器的本地版本读取逻辑，全部以 config/version.json 为唯一版本源。",
+                          "移除 v051.1 r12 / v050.0 r9 等历史硬编码回退版本；版本文件异常时明确显示【版本信息异常】。",
+                          "本地版本信息异常时停止远端版本比较，避免重复提示更新。",
+                          "自动更新完成后强制读取正式安装目录 config/version.json，并确认实际安装版本等于目标版本后才允许重启。",
+                          "正式 Inno 安装器固定使用 %LOCALAPPDATA%\\Programs\\ExcelRelationTool，并设置 UsePreviousAppDir=no，避免历史安装目录造成安装与重启路径不一致。",
+                          "继续包含 v052.1 r2 的动态字段兼容、功能一收尾后台化及第12/13/15步性能优化。"
                       ]
 }
