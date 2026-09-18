@@ -5,7 +5,7 @@
     "installer_name":  "ExcelRelationTool_Setup.exe",
     "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
-    "sha256":  "789a0ccf261e4e6352908e2865142a2172512f4143e952300bd8dd5f4f02a849",
+    "sha256":  "1a1c2cc7453954ab87c7a840aff9972846efc114f9fe4de5ee4d38b66e77d2e0",
     "release_notes":  [
                           "修复正式安装后左下角显示「版本信息异常」的问题：版本解析器改为按受信任候选程序根目录查找有效 config/version.json。",
                           "主界面与更新器继续共享同一版本源；有效版本文件存在时，不再因单一路径推断失败而误判版本异常。",
