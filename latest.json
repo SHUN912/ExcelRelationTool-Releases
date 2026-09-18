@@ -1,17 +1,16 @@
 {
-    "version":  "v052.1 r3",
-    "version_code":  521003,
+    "version":  "v052.1 r4",
+    "version_code":  521004,
     "published":  true,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r3/ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r3/ExcelRelationTool_Setup.exe",
-    "sha256":  "af112350482e98ead93a581f0e525454ce899dbebe9d8b5a0616fe33abe934ef",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
+    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
+    "sha256":  "789a0ccf261e4e6352908e2865142a2172512f4143e952300bd8dd5f4f02a849",
     "release_notes":  [
-                          "相较上一正式 Release v051.4 r10，功能一完成底层 Excel 处理架构与大文件性能重构。",
-                          "功能一字段结构由固定 42 列升级为动态标准骨架；非必要字段可自动删减、补位和插入，必要业务字段继续严格校验。",
-                          "第 12 步改为候选优先、Windows 本地临时副本解析与稀疏写入；第 13 步非月末跳过整表扫描；第 15 步优先使用 OOXML 快速路径并复用最终工作簿。",
-                          "中间文件诊断高亮退出主业务完成路径并转为后台执行，第 5 步新增记录改为关键字段标记。",
-                          "主界面与更新器统一以 config/version.json 为唯一版本源，版本异常不再回退到历史硬编码版本。",
-                          "自动更新安装完成后强制校验实际安装版本；正式 Inno 安装目录固定，并设置 UsePreviousAppDir=no。"
+                          "修复正式安装后左下角显示「版本信息异常」的问题：版本解析器改为按受信任候选程序根目录查找有效 config/version.json。",
+                          "主界面与更新器继续共享同一版本源；有效版本文件存在时，不再因单一路径推断失败而误判版本异常。",
+                          "正式构建新增 GUI 左下角版本标签断言与真实临时安装版本解析断言，目标release不一致即禁止发布。",
+                          "覆盖安装继续清理历史英文/中文桌面快捷方式，最终只保留规范的「Excel关联处理工具」快捷方式。",
+                          "业务处理规则未改变。"
                       ]
 }
