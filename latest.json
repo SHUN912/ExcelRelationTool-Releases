@@ -1,16 +1,14 @@
 {
-    "version":  "v052.1 r4",
-    "version_code":  521004,
+    "version":  "v052.1 r7",
+    "version_code":  521007,
     "published":  true,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r4/ExcelRelationTool_Setup.exe",
-    "sha256":  "1a1c2cc7453954ab87c7a840aff9972846efc114f9fe4de5ee4d38b66e77d2e0",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+    "sha256":  "6a5656131ce30f3744a248bd972bd741c5457f103aec485151233b1f5048d6c2",
     "release_notes":  [
-                          "修复正式安装后左下角显示「版本信息异常」的问题：版本解析器改为按受信任候选程序根目录查找有效 config/version.json。",
-                          "主界面与更新器继续共享同一版本源；有效版本文件存在时，不再因单一路径推断失败而误判版本异常。",
-                          "正式构建新增 GUI 左下角版本标签断言与真实临时安装版本解析断言，目标release不一致即禁止发布。",
-                          "覆盖安装继续清理历史英文/中文桌面快捷方式，最终只保留规范的「Excel关联处理工具」快捷方式。",
-                          "业务处理规则未改变。"
+                          "修复功能三付款单门店字段兼容与自营区域映射",
+                          "新增整体与分区域10项金额强制对账",
+                          "修复带内嵌图片的调账表连续保存",
+                          "正式安装包不携带公共资料，覆盖安装保留用户数据"
                       ]
 }
