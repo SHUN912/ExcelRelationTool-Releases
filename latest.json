@@ -1,14 +1,14 @@
 {
-    "version":  "v052.1 r8",
-    "version_code":  521008,
+    "version":  "v052.1 r9",
+    "version_code":  521009,
     "published":  true,
     "installer_name":  "ExcelRelationTool_Setup.exe",
     "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "26da63f37cb109e19f20d76ae7ce6fa5ace5409c1c1874fbdc931153bb6e83c8",
+    "sha256":  "02754d61386210db01375d458e5e36060cd2db88c77ce10a563f4f0c0af62217",
     "release_notes":  [
-                          "功能三模板文件名改为包含指定模板文字即可识别",
-                          "支持在模板名称前后添加日期、时间戳或版本标记",
-                          "同类多个模板仍会阻止处理，避免误用旧模板",
-                          "累计包含v052.1 r7功能三区域对账与公式保留修复"
+                          "功能三付款单适配已支付金额，并兼容历史付款单金额字段",
+                          "覆盖安装按模板类别保护用户模板，时间戳文件名不会被重复补装",
+                          "映射存在即保留、缺失才补装；公共资料继续不打包不覆盖",
+                          "新增真实覆盖安装SHA-256保留回归门槛"
                       ]
 }
