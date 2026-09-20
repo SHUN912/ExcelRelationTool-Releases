@@ -1,14 +1,14 @@
 {
-    "version":  "v052.1 r7",
-    "version_code":  521007,
+    "version":  "v052.1 r8",
+    "version_code":  521008,
     "published":  true,
     "installer_name":  "ExcelRelationTool_Setup.exe",
     "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "6a5656131ce30f3744a248bd972bd741c5457f103aec485151233b1f5048d6c2",
+    "sha256":  "26da63f37cb109e19f20d76ae7ce6fa5ace5409c1c1874fbdc931153bb6e83c8",
     "release_notes":  [
-                          "修复功能三付款单门店字段兼容与自营区域映射",
-                          "新增整体与分区域10项金额强制对账",
-                          "修复带内嵌图片的调账表连续保存",
-                          "正式安装包不携带公共资料，覆盖安装保留用户数据"
+                          "功能三模板文件名改为包含指定模板文字即可识别",
+                          "支持在模板名称前后添加日期、时间戳或版本标记",
+                          "同类多个模板仍会阻止处理，避免误用旧模板",
+                          "累计包含v052.1 r7功能三区域对账与公式保留修复"
                       ]
 }
