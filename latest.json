@@ -1,14 +1,19 @@
 {
-    "version":  "v052.1 r9",
-    "version_code":  521009,
+    "schema_version":  1,
+    "version":  "v052.1 r11",
+    "version_code":  521011,
+    "tag":  "v052.1-r11",
     "published":  true,
+    "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "02754d61386210db01375d458e5e36060cd2db88c77ce10a563f4f0c0af62217",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r11/ExcelRelationTool_Setup.exe",
+    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+    "sha256":  "34aff0f27436e03ae12ffc82297eefada9469cf423fd01b334a5c1b0b2ca5b12",
     "release_notes":  [
-                          "功能三付款单适配已支付金额，并兼容历史付款单金额字段",
-                          "覆盖安装按模板类别保护用户模板，时间戳文件名不会被重复补装",
-                          "映射存在即保留、缺失才补装；公共资料继续不打包不覆盖",
-                          "新增真实覆盖安装SHA-256保留回归门槛"
+                          "修复功能三第04步模板汇总仍查找旧字段『付款单金额』的问题",
+                          "付款单模板汇总金额字段统一为『已支付金额』，与第03步真实输出一致",
+                          "保留第01至03步处理逻辑以及既有整体与分区域金额对账",
+                          "正式安装包不携带大客户表、应收底稿、经销商清单或确认状态",
+                          "覆盖安装保留用户已有公共资料、映射配置和模板"
                       ]
 }
