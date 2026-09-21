@@ -1,19 +1,14 @@
 {
-    "schema_version":  1,
-    "version":  "v052.1 r11",
-    "version_code":  521011,
-    "tag":  "v052.1-r11",
+    "version":  "v053.1 r7",
+    "version_code":  531007,
     "published":  true,
-    "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v052.1-r11/ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "34aff0f27436e03ae12ffc82297eefada9469cf423fd01b334a5c1b0b2ca5b12",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+    "sha256":  "c61192f74b4683f4a66068947036acd0a9b678f630e13490762d6c56f38acab2",
     "release_notes":  [
-                          "修复功能三第04步模板汇总仍查找旧字段『付款单金额』的问题",
-                          "付款单模板汇总金额字段统一为『已支付金额』，与第03步真实输出一致",
-                          "保留第01至03步处理逻辑以及既有整体与分区域金额对账",
-                          "正式安装包不携带大客户表、应收底稿、经销商清单或确认状态",
-                          "覆盖安装保留用户已有公共资料、映射配置和模板"
+                          "统一整理各功能标题、说明文字、处理步骤与日志控件",
+                          "功能四输出设置、处理步骤、运行日志和状态布局统一",
+                          "修复功能四卡片版块间距并保持跨功能 UI 一致性",
+                          "正式安装包不携带公共资料，覆盖安装保留用户数据"
                       ]
 }
