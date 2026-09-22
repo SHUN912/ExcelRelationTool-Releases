@@ -1,14 +1,24 @@
 {
-    "version":  "v053.1 r7",
-    "version_code":  531007,
+    "schema_version":  1,
+    "version":  "v053.3 r3",
+    "version_code":  533003,
+    "tag":  "v053.3-r3",
     "published":  true,
+    "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "c61192f74b4683f4a66068947036acd0a9b678f630e13490762d6c56f38acab2",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.3-r3/ExcelRelationTool_Setup.exe",
+    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+    "sha256":  "a96374e8064e4fd2ea20d929534fb11e55e657af79cc3875a17deb0a3c9c4293",
     "release_notes":  [
-                          "统一整理各功能标题、说明文字、处理步骤与日志控件",
-                          "功能四输出设置、处理步骤、运行日志和状态布局统一",
-                          "修复功能四卡片版块间距并保持跨功能 UI 一致性",
-                          "正式安装包不携带公共资料，覆盖安装保留用户数据"
+                          "开发测试版左下角新增“构建正式包”按钮，可直接构建当前版本正式EXE安装包；按钮位于下载源栏下一行。",
+                          "正式构建自动读取config/version.json，不再绑定某一个版本号。",
+                          "构建过程执行完整Release Gate、Embedded Runtime搬迁、GUI Smoke、Inno、真实安装、Launcher和SHA-256校验。",
+                          "构建完成自动生成GitHub发布操作单，包含Tag、Title、Release Notes、附件清单、latest.json和发布后核验步骤。",
+                          "修复v053.3 r1因错误识别左侧布局导致开发版启动后立即退出的问题。",
+                          "修复正式Stage缺少功能四测试模板及旧测试固定断言历史版本造成的第五步失败。",
+                          "构建回归失败时显示并记录完整原始测试输出，由按钮启动时失败窗口保持打开。",
+                          "正式安装版不显示且不包含“构建正式包”按钮、启动模块或PowerShell构建脚本。",
+                          "保留v053.2 r5功能四模板主题色RGB保真、GAP公式、逐步骤中间文件与统一状态颜色修复。",
+                          "正式安装包不携带公共资料；覆盖安装继续保留用户资料、映射配置和模板。"
                       ]
 }
