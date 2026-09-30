@@ -1,16 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v053.7 r5 Mac 1",
-  "version_code": 53700501,
-  "bundle_version": "537005.101",
+  "release": "v053.7 r5 Mac 3",
+  "version_code": 53700503,
+  "bundle_version": "537005.103",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "1bf7c0b4571d8545bc9e51c8dcae1089004641b65b1d0cc6f8fdf507b698ec34",
-  "size_bytes": 67106993,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.7-r5/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "6bb062478249f472b8ea704f96997ce71e8b48fd4791d0193a4b1be3bfc09ae3",
+  "size_bytes": 66318739,
   "minimum_macos": "14.5",
   "notes": [
-    "Apple Silicon 正式包，内置 Python 与依赖",
-    "独立 Mac 自动更新通道"
+    "修复功能五八张透视表的日期显示，数字统一为常规格式"
   ]
 }
