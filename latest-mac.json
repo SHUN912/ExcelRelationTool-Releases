@@ -1,15 +1,17 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v053.7 r5 Mac 3",
-  "version_code": 53700503,
-  "bundle_version": "537005.103",
+  "release": "v053.7 r5 Mac 5",
+  "version_code": 53700505,
+  "bundle_version": "537005.105",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
   "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.7-r5/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "6bb062478249f472b8ea704f96997ce71e8b48fd4791d0193a4b1be3bfc09ae3",
-  "size_bytes": 66318739,
+  "sha256": "b4565f5af059b7be3d9869ea1bc09bdc9271e4f9b27d4c1ba5dc2c1b1b1cc768",
+  "size_bytes": 66860215,
   "minimum_macos": "14.5",
   "notes": [
-    "修复功能五八张透视表的日期显示，数字统一为常规格式"
+    "功能五营收、在租单价、成交单价显示为千分位整数，保留底层精度",
+    "补齐四份加工中间文件及原生透视表诊断高亮",
+    "构建默认仅检查安装包，业务验证改为按需运行"
   ]
 }
