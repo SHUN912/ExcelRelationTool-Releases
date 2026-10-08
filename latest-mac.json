@@ -1,17 +1,20 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v053.7 r5 Mac 5",
-  "version_code": 53700505,
-  "bundle_version": "537005.105",
+  "release": "v053.8 r9 Mac 1",
+  "version_code": 53800901,
+  "bundle_version": "538009.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.7-r5/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "b4565f5af059b7be3d9869ea1bc09bdc9271e4f9b27d4c1ba5dc2c1b1b1cc768",
-  "size_bytes": 66860215,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.8-r9/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "4bee5613301eec950231a6ebc3c6a3d7140d28e168b94fffbae58ef9ba5bbe19",
+  "size_bytes": 119449293,
   "minimum_macos": "14.5",
   "notes": [
-    "功能五营收、在租单价、成交单价显示为千分位整数，保留底层精度",
-    "补齐四份加工中间文件及原生透视表诊断高亮",
-    "构建默认仅检查安装包，业务验证改为按需运行"
+    "功能一业务日期和输出命名改为读取在租表文件名时间戳。",
+    "五个功能输出设置中的业务日期随上传文件同步，去除时分秒；交车日期区间显示起止日期。",
+    "兼容旧版区域映射结构，读取失败不再回写默认值；正式版映射独立保存并保留修改前备份。",
+    "新增Mac开发测试入口，可由同版本Windows测试版请求启动。",
+    "Mac测试版新增构建正式包按钮，生成DMG、校验文件、独立更新元数据及发布指南。",
+    "保留功能五四份中间文件、原生透视表及千分位整数格式修复；默认构建不重复业务测试。"
   ]
 }
