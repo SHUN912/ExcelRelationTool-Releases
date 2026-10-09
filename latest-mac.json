@@ -1,20 +1,19 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v053.8 r12 Mac 1",
-  "version_code": 53801201,
-  "bundle_version": "538012.101",
+  "release": "v053.9 r1 Mac 1",
+  "version_code": 53900101,
+  "bundle_version": "539001.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.8-r12/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "c0dff5e720969aae7b87003a7ae49f1b888c6ba738a5b00fa36c6ce0d470033b",
-  "size_bytes": 120285293,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.9-r1/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "8a5da84b35f29b7c554b0e01d6819ced2c59f49a1a6fd701ec757bd28126f96e",
+  "size_bytes": 118383845,
   "minimum_macos": "14.5",
   "notes": [
-    "功能一业务日期和输出命名改为读取在租表文件名时间戳。",
-    "五个功能输出设置中的业务日期随上传文件同步，去除时分秒；交车日期区间显示起止日期。",
-    "兼容旧版区域映射结构，读取失败不再回写默认值；正式版映射独立保存并保留修改前备份。",
-    "新增Mac开发测试入口，可由同版本Windows测试版请求启动。",
-    "Mac测试版新增构建正式包按钮，生成DMG、校验文件、独立更新元数据及发布指南。",
-    "保留功能五四份中间文件、原生透视表及千分位整数格式修复；默认构建不重复业务测试。"
+    "应收金额统一使用未核销余额，其他费用保留待付款和部分支付。",
+    "功能二汇总未核销余额；功能三应收来源使用未核销余额。",
+    "删除功能四、五无业务用途的日期显示，统一其他功能业务日期标签。",
+    "修复Windows构建版本检查；发布指南改为上传独立更新JSON文件。",
+    "Mac构建增加阶段、耗时和实时日志窗口。"
   ]
 }
