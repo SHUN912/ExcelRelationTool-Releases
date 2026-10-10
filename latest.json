@@ -1,18 +1,17 @@
 {
     "schema_version":  1,
-    "version":  "v053.9 r1",
-    "version_code":  539001,
-    "tag":  "v053.9-r1",
+    "version":  "v054.0 r4",
+    "version_code":  540004,
+    "tag":  "v054.0-r4",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.9-r1/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.0-r4/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "7b5495a8cc1f80075e627c1797431dd8dbf6ea638b7b7b8c81289d243475d9ab",
+    "sha256":  "5973f87defebe35df005a99364ec8b3c5b611641dd58a33961de1003c68f08ab",
     "release_notes":  [
-                          "应收金额统一使用未核销余额，其他费用保留待付款和部分支付。",
-                          "功能二汇总未核销余额；功能三应收来源使用未核销余额。",
-                          "删除功能四、五无业务用途的日期显示，统一其他功能业务日期标签。",
-                          "修复Windows构建版本检查；发布指南改为上传独立更新JSON文件。"
+                          "功能一第8步随区域同次生成经销商类型、经销商分区，减少整表读取与样式复制。",
+                          "指定字段值随步骤写入，最终统一复核，减少重复读取保存。",
+                          "保留已有指定字段设置、业务规则及布局修复。"
                       ]
 }

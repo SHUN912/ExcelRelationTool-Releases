@@ -1,19 +1,16 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v053.9 r1 Mac 1",
-  "version_code": 53900101,
-  "bundle_version": "539001.101",
+  "release": "v054.0 r4",
+  "version_code": 54000401,
+  "bundle_version": "540004.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v053.9-r1/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "8a5da84b35f29b7c554b0e01d6819ced2c59f49a1a6fd701ec757bd28126f96e",
-  "size_bytes": 118383845,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.0-r4/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "5f4dd868531a04ca5484b7f2bdfd1146f23d564a1abbf362ecb16b41c4f1782e",
+  "size_bytes": 102515903,
   "minimum_macos": "14.5",
   "notes": [
-    "应收金额统一使用未核销余额，其他费用保留待付款和部分支付。",
-    "功能二汇总未核销余额；功能三应收来源使用未核销余额。",
-    "删除功能四、五无业务用途的日期显示，统一其他功能业务日期标签。",
-    "修复Windows构建版本检查；发布指南改为上传独立更新JSON文件。",
-    "Mac构建增加阶段、耗时和实时日志窗口。"
+    "功能一经销商字段随区域同次写入，减少整表重建。",
+    "指定字段值随步骤写入，最终统一复核。"
   ]
 }
