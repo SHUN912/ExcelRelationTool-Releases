@@ -1,16 +1,20 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.0 r4",
-  "version_code": 54000401,
-  "bundle_version": "540004.101",
+  "release": "v054.1 r4 Mac",
+  "version_code": 54100401,
+  "bundle_version": "541004.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.0-r4/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "5f4dd868531a04ca5484b7f2bdfd1146f23d564a1abbf362ecb16b41c4f1782e",
-  "size_bytes": 102515903,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r4/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "20725b1a62a3ea351cb8fed319df203d6ef66943c663e4d73f001425d9b7145a",
+  "size_bytes": 103643306,
   "minimum_macos": "14.5",
   "notes": [
-    "功能一经销商字段随区域同次写入，减少整表重建。",
-    "指定字段值随步骤写入，最终统一复核。"
+    "功能三新增经销商分类型报表，分区域报表增加经租和以租代售营收。",
+    "经销商清单按区域字段标题读取，不再固定列位置。",
+    "功能五区运营中心账单按认证名称匹配经销商全称并填写简称，缺失时提示补充清单。",
+    "保留行业客户全国、中山火炬及普通站点的原有处理规则。",
+    "修复模板预览按钮布局及正式构建模板数量校验。",
+    "Mac更新前显示确认框和可滚动更新日志，确认后才下载。"
   ]
 }
