@@ -1,15 +1,20 @@
 {
-    "schema_version":  1,
-    "version":  "v054.1 r14",
-    "version_code":  541014,
-    "tag":  "v054.1-r14",
-    "published":  true,
-    "mandatory":  false,
-    "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r14/ExcelRelationTool_Setup.exe",
-    "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "77e9e83f2ce0eba72b2b4f20222ca6383cfdcf1839ede9c8fb4d93342e0fadf2",
-    "release_notes":  [
-                          "修复Windows构建检查日志编码不一致导致的误报；两端构建检查继续强制执行。"
-                      ]
+  "schema_version": 1,
+  "version": "v054.1 r14",
+  "version_code": 541014,
+  "tag": "v054.1-r14",
+  "published": true,
+  "mandatory": false,
+  "installer_name": "ExcelRelationTool_Setup.exe",
+  "official_installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r14/ExcelRelationTool_Setup.exe",
+  "installer_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
+  "sha256": "77e9e83f2ce0eba72b2b4f20222ca6383cfdcf1839ede9c8fb4d93342e0fadf2",
+  "release_notes": [
+    "功能一“为账单指定字段值”改为分列表格，支持勾选、搜索、复制行、批量修改、文件或剪贴板导入，以及数据和模板导出。",
+    "复制行后，重复账单编号自动标红并禁止保存；更正为唯一编号后取消标红。",
+    "导入不要求预先转换单元格格式，支持读取公式已保存的计算结果；已有字段设置自动转换显示。",
+    "功能二经销商报表将其他费用按功能一当前映射动态拆分，随映射增减费用列，自动调整明细、小计及总计公式。",
+    "修复功能三企业区域映射被旧默认值替换的问题，增加旧设置迁移、独立文件保存及修改前备份。",
+    "统一Windows、Mac共用构建检查，检查失败阻止打包；修复构建测试数据及Windows检查日志编码问题。"
+  ]
 }
