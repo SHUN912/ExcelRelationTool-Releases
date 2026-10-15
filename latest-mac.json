@@ -1,20 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.1 r4 Mac",
-  "version_code": 54100401,
-  "bundle_version": "541004.101",
+  "release": "v054.1 r14 Mac",
+  "version_code": 54101401,
+  "bundle_version": "541014.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r4/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "20725b1a62a3ea351cb8fed319df203d6ef66943c663e4d73f001425d9b7145a",
-  "size_bytes": 103643306,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r14/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "022ce2aef4e94cdc090b4ca53f455fa18f73f87827d4744beae0627ac7793f43",
+  "size_bytes": 104773349,
   "minimum_macos": "14.5",
   "notes": [
-    "功能三新增经销商分类型报表，分区域报表增加经租和以租代售营收。",
-    "经销商清单按区域字段标题读取，不再固定列位置。",
-    "功能五区运营中心账单按认证名称匹配经销商全称并填写简称，缺失时提示补充清单。",
-    "保留行业客户全国、中山火炬及普通站点的原有处理规则。",
-    "修复模板预览按钮布局及正式构建模板数量校验。",
-    "Mac更新前显示确认框和可滚动更新日志，确认后才下载。"
+    "修复Windows构建检查日志编码不一致导致的误报；两端构建检查继续强制执行。"
   ]
 }

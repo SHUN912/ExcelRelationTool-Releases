@@ -1,17 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v054.1 r4",
-    "version_code":  541004,
-    "tag":  "v054.1-r4",
+    "version":  "v054.1 r14",
+    "version_code":  541014,
+    "tag":  "v054.1-r14",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r4/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.1-r14/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "272c3d20b8906d839028475b0b71c311e52782a145706321a8b8b03d89d98663",
+    "sha256":  "77e9e83f2ce0eba72b2b4f20222ca6383cfdcf1839ede9c8fb4d93342e0fadf2",
     "release_notes":  [
-                          "功能一第8步随区域同次生成经销商类型、经销商分区，减少整表读取与样式复制。",
-                          "指定字段值随步骤写入，最终统一复核，减少重复读取保存。",
-                          "保留已有指定字段设置、业务规则及布局修复。"
+                          "修复Windows构建检查日志编码不一致导致的误报；两端构建检查继续强制执行。"
                       ]
 }
