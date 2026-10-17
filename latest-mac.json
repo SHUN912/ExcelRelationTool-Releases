@@ -1,22 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.3 r11 Mac",
-  "version_code": 54301101,
-  "bundle_version": "543011.101",
+  "release": "v054.4 r6 Mac",
+  "version_code": 54400601,
+  "bundle_version": "544006.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.3-r11/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "ef16a1940e7b0016b74834d2572eb0b82c3f94ff31bb0c756cdf2900e155539c",
-  "size_bytes": 105202557,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.4-r6/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "a30b53a74a5ea1cca4fb31c2a9d739f9a239617efefa93218090f94a5aa89d0c",
+  "size_bytes": 103764902,
   "minimum_macos": "14.5",
   "notes": [
-    "EXE和DMG正式构建的更新日志、发布指南及检查范围说明统一输出TXT格式。",
-    "功能六正式版与测试版默认输出到各功能共用的generated_versions目录，保持统一的运行目录命名与结构。",
-    "正式包恢复稳定构建流程，取消构建耗时记录。",
-    "功能五完成弹窗关闭后再询问是否继续功能六；补齐Mac功能五数据整理及批量透视统计的实时步骤状态。",
-    "Mac测试版菜单标题调整为构建正式包，正式版菜单标题调整为检查更新。",
-    "移除Mac菜单的原生桥接，恢复由Qt管理的构建及更新菜单，修复r7新增菜单代码可能引发的启动崩溃。",
-    "正式包恢复v054.3 r2的稳定构建流程，取消近期提速尝试及构建耗时记录，保留TXT发布资料格式。",
-    "修正Windows构建模板数量校验，按必需模板清单计算数量，兼容新增的经销商分类型模板。"
+    "功能四支持连续日期交车表逐日拆分，按各日对应的上月锁车检查区间分别生成最终结果及中间文件；保留零交车日期并在完成弹窗提示，兼容月末、平闰年及跨年。"
   ]
 }
