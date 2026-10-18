@@ -1,15 +1,21 @@
 {
     "schema_version":  1,
-    "version":  "v054.5 r1",
-    "version_code":  545001,
-    "tag":  "v054.5-r1",
+    "version":  "v054.5 r10",
+    "version_code":  545010,
+    "tag":  "v054.5-r10",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.5-r1/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.5-r10/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "96e22f3edcca8f08ec4fe915d2f231ee98d854d7a19e349b72a83759e509ebe0",
+    "sha256":  "669e1140b530954abd3c039407d983f2fa85d7995e9acff42ddbd4db6b99427b",
     "release_notes":  [
-                          "检查更新时按版本汇总尚未安装版本的更新日志，支持滚动查看。"
+                          "统一Windows和Mac软件图标，Mac运行中的Dock图标支持随系统浅色、深色外观切换。",
+                          "Mac图标支持系统原生外观切换，旧系统保持浅色；测试版保留红色BETA角标。",
+                          "修复切换系统颜色模式后，输入框、表格和弹窗等界面文字不清晰的问题。",
+                          "软件界面跟随系统自动切换浅色、深色，统一适配文字、表格、输入框与弹窗，并保留状态提示颜色。",
+                          "更新为叠放报表图标，明显区分深浅色外观；修复Mac图标启动前后比例变化及深色图标未启用的问题。",
+                          "修复深色切回浅色后，上传、映射及表格区域残留深色背景和文字不清晰的问题。",
+                          "修复 Mac 图标的深浅色切换，以及测试版运行时出现 Python 图标的问题。"
                       ]
 }
