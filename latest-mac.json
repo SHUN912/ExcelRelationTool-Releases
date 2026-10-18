@@ -1,15 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.4 r6 Mac",
-  "version_code": 54400601,
-  "bundle_version": "544006.101",
+  "release": "v054.5 r1 Mac",
+  "version_code": 54500101,
+  "bundle_version": "545001.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.4-r6/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "a30b53a74a5ea1cca4fb31c2a9d739f9a239617efefa93218090f94a5aa89d0c",
-  "size_bytes": 103764902,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.5-r1/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "70b706c8256f087daa3b1a49e8e1894693e510401135a616d7d1e1866e8ad6c0",
+  "size_bytes": 103588519,
   "minimum_macos": "14.5",
   "notes": [
-    "功能四支持连续日期交车表逐日拆分，按各日对应的上月锁车检查区间分别生成最终结果及中间文件；保留零交车日期并在完成弹窗提示，兼容月末、平闰年及跨年。"
+    "检查更新时按版本汇总尚未安装版本的更新日志，支持滚动查看。"
   ]
 }

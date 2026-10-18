@@ -1,15 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v054.4 r6",
-    "version_code":  544006,
-    "tag":  "v054.4-r6",
+    "version":  "v054.5 r1",
+    "version_code":  545001,
+    "tag":  "v054.5-r1",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.4-r6/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.5-r1/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "8cd51d782d46922e33ffcc563f6516597b1c63a553145a2687daef3a45070f55",
+    "sha256":  "96e22f3edcca8f08ec4fe915d2f231ee98d854d7a19e349b72a83759e509ebe0",
     "release_notes":  [
-                          "功能四支持连续日期交车表逐日拆分，按各日对应的上月锁车检查区间分别生成最终结果及中间文件；保留零交车日期并在完成弹窗提示，兼容月末、平闰年及跨年。"
+                          "检查更新时按版本汇总尚未安装版本的更新日志，支持滚动查看。"
                       ]
 }
