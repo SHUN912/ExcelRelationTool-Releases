@@ -1,21 +1,22 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.5 r10 Mac",
-  "version_code": 54501001,
-  "bundle_version": "545010.101",
+  "release": "v054.6 r6 Mac",
+  "version_code": 54600601,
+  "bundle_version": "546006.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.5-r10/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "5ab46fe0a8642e26eeef51918d6a4bae680a650d135f8f16f9ad9e7df23166e7",
-  "size_bytes": 144540991,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r6/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "c7d159f4979db71f9359d97e3903af9b2d801b814c30e4dfa55505535f81c160",
+  "size_bytes": 147398612,
   "minimum_macos": "14.5",
   "notes": [
-    "统一Windows和Mac软件图标，Mac运行中的Dock图标支持随系统浅色、深色外观切换。",
-    "Mac图标支持系统原生外观切换，旧系统保持浅色；测试版保留红色BETA角标。",
-    "修复切换系统颜色模式后，输入框、表格和弹窗等界面文字不清晰的问题。",
-    "软件界面跟随系统自动切换浅色、深色，统一适配文字、表格、输入框与弹窗，并保留状态提示颜色。",
-    "更新为叠放报表图标，明显区分深浅色外观；修复Mac图标启动前后比例变化及深色图标未启用的问题。",
-    "修复深色切回浅色后，上传、映射及表格区域残留深色背景和文字不清晰的问题。",
-    "修复 Mac 图标的深浅色切换，以及测试版运行时出现 Python 图标的问题。"
+    "修复各功能表格超出版块边界的问题，统一六个功能的底部固定圆角运行栏，并补齐功能六运行耗时。",
+    "恢复功能二、三标题区域的每月模板更新提醒与确认按钮，确认状态按功能独立保存并在跨月后重新提醒。",
+    "修复功能四自营门店求和、GAP及锁车匹配公式缺少保存结果、打开后可能显示空白的问题，保留原有公式。",
+    "功能一提前检查区域匹配异常并输出待检查清单，功能二、三在开始处理前再次校验区域。",
+    "处理失败提示更易理解，详细诊断日志单独保存并显示位置，方便反馈问题。",
+    "调整Mac图标图案比例，与Windows版保持一致。",
+    "功能一在合并输入后，将账单报表和其他费用表中包含“违约金”的费用类型统一为“违约金”，并保留中间文件及修改明细。",
+    "修复部分环境中功能四保存公式结果失败、功能一费用类型规范失败的问题。"
   ]
 }
