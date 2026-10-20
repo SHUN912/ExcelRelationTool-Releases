@@ -1,22 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.6 r6 Mac",
-  "version_code": 54600601,
-  "bundle_version": "546006.101",
+  "release": "v054.6 r7 Mac",
+  "version_code": 54600701,
+  "bundle_version": "546007.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r6/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "c7d159f4979db71f9359d97e3903af9b2d801b814c30e4dfa55505535f81c160",
-  "size_bytes": 147398612,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r7/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "58ffb58f1dfa10fc254afabe5bc2c6e39db5fd943ba3b60e844751bd95eb8c14",
+  "size_bytes": 148690658,
   "minimum_macos": "14.5",
   "notes": [
-    "修复各功能表格超出版块边界的问题，统一六个功能的底部固定圆角运行栏，并补齐功能六运行耗时。",
-    "恢复功能二、三标题区域的每月模板更新提醒与确认按钮，确认状态按功能独立保存并在跨月后重新提醒。",
-    "修复功能四自营门店求和、GAP及锁车匹配公式缺少保存结果、打开后可能显示空白的问题，保留原有公式。",
-    "功能一提前检查区域匹配异常并输出待检查清单，功能二、三在开始处理前再次校验区域。",
-    "处理失败提示更易理解，详细诊断日志单独保存并显示位置，方便反馈问题。",
-    "调整Mac图标图案比例，与Windows版保持一致。",
-    "功能一在合并输入后，将账单报表和其他费用表中包含“违约金”的费用类型统一为“违约金”，并保留中间文件及修改明细。",
-    "修复部分环境中功能四保存公式结果失败、功能一费用类型规范失败的问题。"
+    "功能四单日及连续日期交车对应的锁车检查区间统一为上个月同日至交车当天，包含首尾两天；上月无对应日时取月末。"
   ]
 }
