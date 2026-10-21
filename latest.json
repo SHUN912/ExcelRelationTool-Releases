@@ -1,15 +1,25 @@
 {
     "schema_version":  1,
-    "version":  "v054.6 r8",
-    "version_code":  546008,
-    "tag":  "v054.6-r8",
+    "version":  "v055.0 r12",
+    "version_code":  550012,
+    "tag":  "v055.0-r12",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r8/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r12/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "c95e60c29587504278a1a2eecea80d77f6ae2f6f15969611aec15d6bee3f66b7",
+    "sha256":  "ca5f1f2313cc5b3273eb6753a9c803b1f9e1cf98cfcc5ddbd8f338eb05db321e",
     "release_notes":  [
-                          "功能二各项类型模板支持门店总计列，保留汇总公式并正确填写大客户、经销商金额。"
+                          "功能七模板入口、月初更新提醒、区域映射与处理版块布局及固定底部运行栏统一，功能六、七运行日志统一为15行可见高度。",
+                          "功能六上传与Sheet对应、处理步骤与输出设置分别并排；补齐功能七输出设置标签，统一输出目录并增加计算、汇总、分版块填写及输出核对中间结果和日志。",
+                          "功能七上传区补充文件名识别要求与完整8位日期示例，严格校验YYYYMMDD日期；输出文件夹使用与其他功能一致的function7命名格式。",
+                          "功能七经销商版块兼容经销商、经销商零售、经销商批售，统一参与区域校验和统计；保留完整日期提示与统一输出目录。",
+                          "功能七全国车辆实际数改为运营车辆数合计；清理功能一、二运行日志中的初始化历史说明。",
+                          "完善开发补丁应用后的Mac退出等待、自动启动重试及进程运行确认。",
+                          "功能七文件日期兼容6位YYMMDD与8位YYYYMMDD，模板日期统一使用四位年份YYYY/MM/DD。",
+                          "修复功能七构建检查读取真实模板确认设置导致的误报，测试使用独立临时设置。",
+                          "功能七构建测试自动生成独立样例，完整验证模板填写，避免因缺少会话附件跳过测试而阻止打包。",
+                          "修复Windows界面未初始化更新器导致开发构建入口报错并退出；恢复Windows检查更新和开发构建按钮。",
+                          "增强构建发布信息获取的压缩传输后备，保留完整响应校验。"
                       ]
 }
