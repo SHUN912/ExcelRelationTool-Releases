@@ -1,24 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.0 r10 Mac",
-  "version_code": 55001001,
-  "bundle_version": "550010.101",
+  "release": "v054.6 r8 Mac",
+  "version_code": 54600801,
+  "bundle_version": "546008.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r10/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "63af912e3c9c0d606f1c035921fc171bc05839da945de89e87056869884561d6",
-  "size_bytes": 148826871,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r8/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "3d237538a4b6e611511fda37e639b8aa7a3b94e918a8bc16b4a0ec17835819d5",
+  "size_bytes": 148690896,
   "minimum_macos": "14.5",
   "notes": [
-    "新增功能七“周度经营简报更新”，根据区域运营日报汇总并填写模板中的实际数据。",
-    "功能七模板入口、月初更新提醒、区域映射与处理版块布局及固定底部运行栏统一，功能六、七运行日志统一为15行可见高度。",
-    "功能六上传与Sheet对应、处理步骤与输出设置分别并排；补齐功能七输出设置标签，统一输出目录并增加计算、汇总、分版块填写及输出核对中间结果和日志。",
-    "功能七上传区补充文件名识别要求与完整8位日期示例，严格校验YYYYMMDD日期；输出文件夹使用与其他功能一致的function7命名格式。",
-    "功能七经销商版块兼容经销商、经销商零售、经销商批售，统一参与区域校验和统计；保留完整日期提示与统一输出目录。",
-    "功能七全国车辆实际数改为运营车辆数合计；清理功能一、二运行日志中的初始化历史说明。",
-    "完善开发补丁应用后的Mac退出等待、自动启动重试及进程运行确认。",
-    "功能七文件日期兼容6位YYMMDD与8位YYYYMMDD，模板日期统一使用四位年份YYYY/MM/DD。",
-    "修复功能七构建检查读取真实模板确认设置导致的误报，测试使用独立临时设置。",
-    "功能七构建测试自动生成独立样例，完整验证模板填写，避免因缺少会话附件跳过测试而阻止打包。"
+    "功能二各项类型模板支持门店总计列，保留汇总公式并正确填写大客户、经销商金额。"
   ]
 }
