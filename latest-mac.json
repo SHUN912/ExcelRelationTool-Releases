@@ -1,15 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v054.6 r7 Mac",
-  "version_code": 54600701,
-  "bundle_version": "546007.101",
+  "release": "v054.6 r8 Mac",
+  "version_code": 54600801,
+  "bundle_version": "546008.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r7/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "58ffb58f1dfa10fc254afabe5bc2c6e39db5fd943ba3b60e844751bd95eb8c14",
-  "size_bytes": 148690658,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r8/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "3d237538a4b6e611511fda37e639b8aa7a3b94e918a8bc16b4a0ec17835819d5",
+  "size_bytes": 148690896,
   "minimum_macos": "14.5",
   "notes": [
-    "功能四单日及连续日期交车对应的锁车检查区间统一为上个月同日至交车当天，包含首尾两天；上月无对应日时取月末。"
+    "功能二各项类型模板支持门店总计列，保留汇总公式并正确填写大客户、经销商金额。"
   ]
 }

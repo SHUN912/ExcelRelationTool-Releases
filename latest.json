@@ -1,15 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v054.6 r7",
-    "version_code":  546007,
-    "tag":  "v054.6-r7",
+    "version":  "v054.6 r8",
+    "version_code":  546008,
+    "tag":  "v054.6-r8",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r7/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v054.6-r8/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "12920726a90dd0992b8d2eff46bd7db26b8e2e63c12e60d6ee1c30cb70f3424a",
+    "sha256":  "c95e60c29587504278a1a2eecea80d77f6ae2f6f15969611aec15d6bee3f66b7",
     "release_notes":  [
-                          "功能四单日及连续日期交车对应的锁车检查区间统一为上个月同日至交车当天，包含首尾两天；上月无对应日时取月末。"
+                          "功能二各项类型模板支持门店总计列，保留汇总公式并正确填写大客户、经销商金额。"
                       ]
 }
