@@ -10,7 +10,6 @@
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
     "sha256":  "4fcaa5562730ee0a83ec832433e6a86754016378b2018deb96f58c00cc5573f5",
     "release_notes":  [
-                          "更新日志按平台生成，共同改动两端保留，平台专属改动只在对应平台展示。",
                           "更新功能四情况统计标题及自营门店、行业客户、经销商汇总行底色，统计填写逻辑保持不变。"
                       ]
 }
