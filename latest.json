@@ -1,21 +1,16 @@
 {
     "schema_version":  1,
-    "version":  "v055.0 r19",
-    "version_code":  550019,
-    "tag":  "v055.0-r19",
+    "version":  "v055.0 r21",
+    "version_code":  550021,
+    "tag":  "v055.0-r21",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r19/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r21/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "b7f10d7cf5c569fe9e6be21c5b5a23100e3290e95527a27ff3d49bbb9a3a3dd5",
+    "sha256":  "4fcaa5562730ee0a83ec832433e6a86754016378b2018deb96f58c00cc5573f5",
     "release_notes":  [
-                          "功能一自定义字段值窗口增加新增字段列按钮，新增列默认留空，仅填写的字段参与自定义。",
-                          "修复功能一区域检查读取无行数元数据的中间表时中断的问题，保留区域异常拦截及检查清单。",
-                          "统一运行日志步骤标识；功能一提前检查输入及自定义字段值映射，暂停含违约金费用类型的统一改名；功能二经销商表新增上牌费列并纳入合计。",
-                          "功能一恢复原有文件前置检查范围，仅补充明确指定字段值的映射检查，移除新增整表区域扫描及开始处理时的重复前置扫描。",
-                          "修复经销商表上牌费计入租金并单列展示、总计排除上牌费列避免重复计算；同步修正违约金规则停用后的构建回归检查。",
-                          "修复功能二各项类型模板双层或纵向合并表头中的大客户、经销商数值漏填问题，保留门店总计及总计公式。",
-                          "修复Windows正式包构建测试使用系统默认编码读取UTF-8源码而失败的问题，保留完整回归检查。"
+                          "更新日志按平台生成，共同改动两端保留，平台专属改动只在对应平台展示。",
+                          "更新功能四情况统计标题及自营门店、行业客户、经销商汇总行底色，统计填写逻辑保持不变。"
                       ]
 }
