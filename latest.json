@@ -1,15 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v055.0 r21",
-    "version_code":  550021,
-    "tag":  "v055.0-r21",
+    "version":  "v055.0 r25",
+    "version_code":  550025,
+    "tag":  "v055.0-r25",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r21/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r25/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "4fcaa5562730ee0a83ec832433e6a86754016378b2018deb96f58c00cc5573f5",
+    "sha256":  "8cd242ae97e1b38b8e291f72504c56a1a54204186e1df7a9f24c6be0e20c564c",
     "release_notes":  [
-                          "更新功能四情况统计标题及自营门店、行业客户、经销商汇总行底色，统计填写逻辑保持不变。"
+                          "修复功能四升级后情况统计汇总行底色未更新的问题，统一正式版与测试版的显示效果。"
                       ]
 }

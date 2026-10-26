@@ -1,15 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.0 r21 Mac",
-  "version_code": 55002101,
-  "bundle_version": "550021.101",
+  "release": "v055.0 r25 Mac",
+  "version_code": 55002501,
+  "bundle_version": "550025.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r21/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "4bc2e9b8d4fdba686e5d428c77112933ad1c8fdb105ced684d31c17844388484",
-  "size_bytes": 112017732,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.0-r25/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "cd16733c2f8d90bb682a5036a108c98dcfcaff7064453dfd5b3a1e65fa8b0a2b",
+  "size_bytes": 113713056,
   "minimum_macos": "14.5",
   "notes": [
-    "更新功能四情况统计标题及自营门店、行业客户、经销商汇总行底色，统计填写逻辑保持不变。"
+    "修复功能四升级后情况统计汇总行底色未更新的问题，统一正式版与测试版的显示效果。"
   ]
 }
