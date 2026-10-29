@@ -1,24 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.2 r14 Mac",
-  "version_code": 55201401,
-  "bundle_version": "552014.101",
+  "release": "v055.2 r15 Mac",
+  "version_code": 55201501,
+  "bundle_version": "552015.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r14/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "6990b0eced4bdab170d46ddb7ef3497b3ed67db325c9ad7f4fc3796c6597d3c3",
-  "size_bytes": 110509838,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r15/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "b092e4c0af51329d33d8476dcb6805a3d1411d4fa8b77bf24b2f142e4fdb0d29",
+  "size_bytes": 112077368,
   "minimum_macos": "14.5",
   "notes": [
-    "功能二整体报表支持按经销商类型分别汇总租金和其他费用应收及逾期金额。",
-    "功能三付款单、调账和关闭记录优先按大客户客户清单匹配区域，未命中时沿用企业类型映射。",
-    "修复功能三业务文件识别表格无法拖拽和粘贴上传文件的问题。",
-    "修复功能三业务文件识别表格无法获得焦点导致粘贴快捷键不响应的问题。",
-    "兼容账单宽表的站点城市名称与运营门店字段，并更新功能三默认企业类型映射。",
-    "统一输出文件夹按钮；拆分应收分类、诉讼和账龄步骤，剔除账单移至账龄计算后，保留完整字段。",
-    "取消本月以租代购第二期及以后账单的临时剔除逻辑，保留拆分步骤和输出格式。",
-    "功能一在当前分期之后新增账单日、逾期日，保留源表同名字段值。",
-    "功能三应填字段无法填写时保留空值，处理完成后提醒检查具体账单并修正后重新运行功能三。",
-    "解决了一些已知问题。"
+    "新增配置共享，支持选择模板、公共资料及映射导出，预览差异后导入、自动备份及恢复。"
   ]
 }
