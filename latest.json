@@ -1,15 +1,16 @@
 {
     "schema_version":  1,
-    "version":  "v055.2 r15",
-    "version_code":  552015,
-    "tag":  "v055.2-r15",
+    "version":  "v055.2 r17",
+    "version_code":  552017,
+    "tag":  "v055.2-r17",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r15/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r17/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "b4041f69d972c0b560dbbf899193171cd7622e11fb96c2bd6ac13e96c10c29b3",
+    "sha256":  "eb61c4237ff015613f9133c8618ae5be3aab95d5ef32fcd5034071a67d671e7b",
     "release_notes":  [
-                          "新增配置共享，支持选择模板、公共资料及映射导出，预览差异后导入、自动备份及恢复。"
+                          "修复配置共享列表复选框显示及勾选状态同步。",
+                          "修复配置共享多余勾选标记，移除功能六自动维护的Sheet对应共享项。"
                       ]
 }
