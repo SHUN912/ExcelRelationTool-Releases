@@ -1,16 +1,21 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.2 r17 Mac",
-  "version_code": 55201701,
-  "bundle_version": "552017.101",
+  "release": "v055.2 r25 Mac",
+  "version_code": 55202501,
+  "bundle_version": "552025.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r17/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "a5b014543d8af06ece2f66a2e52e8c0afeb221c3ae5c48eabac77b8de09fd154",
-  "size_bytes": 111212416,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r25/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "44489e9032c8aa34fab91caf22b9556afeb67204439a2e1b0821b64be856b87b",
+  "size_bytes": 112215634,
   "minimum_macos": "14.5",
   "notes": [
-    "修复配置共享列表复选框显示及勾选状态同步。",
-    "修复配置共享多余勾选标记，移除功能六自动维护的Sheet对应共享项。"
+    "调整配置共享入口：Windows移至版本号上方，Mac保留顶部菜单栏入口。",
+    "优化配置共享按钮文字、边框与浅绿色底色。",
+    "功能六支持仅上传应收报表和上月区域汇报底稿，仅更新逾期应收版块。",
+    "功能六新增平均成交单价、平均在租单价填写，支持三文件仅更新单价。",
+    "功能六两个平均单价版块按A列从上往下首次出现的标题填写，保留后续同名版块。",
+    "功能六单价版块与其他版块统一区域匹配及未匹配记录处理，未匹配门店记入核对明细并继续运行。",
+    "修复功能六新增单价版块后的旧底稿兼容性及状态更新问题。"
   ]
 }
