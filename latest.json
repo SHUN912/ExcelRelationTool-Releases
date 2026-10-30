@@ -1,21 +1,24 @@
 {
     "schema_version":  1,
-    "version":  "v055.2 r25",
-    "version_code":  552025,
-    "tag":  "v055.2-r25",
+    "version":  "v055.3 r1",
+    "version_code":  553001,
+    "tag":  "v055.3-r1",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.2-r25/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.3-r1/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "67f54b7e71f750b57a282d46f21c535e8d2e56592de7a9c204adbf3b062b5024",
+    "sha256":  "88c41240e8163727f1d31d567fb66b353d59e9b35a85d59ef900df205e532adb",
     "release_notes":  [
-                          "调整配置共享入口：Windows移至版本号上方，Mac保留顶部菜单栏入口。",
-                          "优化配置共享按钮文字、边框与浅绿色底色。",
-                          "功能六支持仅上传应收报表和上月区域汇报底稿，仅更新逾期应收版块。",
-                          "功能六新增平均成交单价、平均在租单价填写，支持三文件仅更新单价。",
-                          "功能六两个平均单价版块按A列从上往下首次出现的标题填写，保留后续同名版块。",
-                          "功能六单价版块与其他版块统一区域匹配及未匹配记录处理，未匹配门店记入核对明细并继续运行。",
-                          "修复功能六新增单价版块后的旧底稿兼容性及状态更新问题。"
+                          "功能一新增可共享的自营门店大区映射、年份及季度字段及各大区TOP11透视表；功能二保留原有Sheet并在末尾更新模板Sheet。",
+                          "功能一新增类型细分和整体类型并兼容后续经销商类型读取；功能三筛除指定关闭账单；完善待检查后的完成提示及经销商模板公式列保护。",
+                          "功能二整体模板支持自营门店、经销商及大客户按类型细分和创建分类汇总，保留总计公式；功能一按创建时间、功能三关闭表按账单创建时间筛除指定违约金，包含2026年4月1日。",
+                          "自营门店类型识别兼容以租代售账单与以租代购账单；类型名称统一为经租；合并大区字段并兼容后续汇总、TOP11及营收读取。",
+                          "新增临时功能八，支持不限文件名按运营城市中文匹配门店、行业客户及经销商大区，输出区域字段和待检查清单。",
+                          "功能八仅保留选中车辆sheet，生成车型公式并匹配沪牌或非沪标准定价；经销商区域增加经销商前缀。",
+                          "功能八按车型编码、长短轴、电量、年份等关键项在同一条定价车型中同时匹配，替代整段文字相似度匹配。",
+                          "功能八车型定价优先匹配包含年份的全部关键词并取从上至下第一条；无候选时忽略年份，其余关键词仍须同时命中，忽略年份后价格冲突时留空。",
+                          "功能八按车牌号是否包含“沪”选择沪牌或非沪定价sheet，区域填写与车型年份匹配规则保持不变。",
+                          "移除临时功能八，保留功能一至七。"
                       ]
 }
