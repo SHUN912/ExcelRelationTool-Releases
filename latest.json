@@ -1,24 +1,20 @@
 {
     "schema_version":  1,
-    "version":  "v055.3 r1",
-    "version_code":  553001,
-    "tag":  "v055.3-r1",
+    "version":  "v055.4 r2",
+    "version_code":  554002,
+    "tag":  "v055.4-r2",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.3-r1/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r2/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "88c41240e8163727f1d31d567fb66b353d59e9b35a85d59ef900df205e532adb",
+    "sha256":  "268ba6223634fbf4b9dd65f7d9148716904164de67d83d033e80db6308edce6f",
     "release_notes":  [
-                          "功能一新增可共享的自营门店大区映射、年份及季度字段及各大区TOP11透视表；功能二保留原有Sheet并在末尾更新模板Sheet。",
-                          "功能一新增类型细分和整体类型并兼容后续经销商类型读取；功能三筛除指定关闭账单；完善待检查后的完成提示及经销商模板公式列保护。",
-                          "功能二整体模板支持自营门店、经销商及大客户按类型细分和创建分类汇总，保留总计公式；功能一按创建时间、功能三关闭表按账单创建时间筛除指定违约金，包含2026年4月1日。",
-                          "自营门店类型识别兼容以租代售账单与以租代购账单；类型名称统一为经租；合并大区字段并兼容后续汇总、TOP11及营收读取。",
-                          "新增临时功能八，支持不限文件名按运营城市中文匹配门店、行业客户及经销商大区，输出区域字段和待检查清单。",
-                          "功能八仅保留选中车辆sheet，生成车型公式并匹配沪牌或非沪标准定价；经销商区域增加经销商前缀。",
-                          "功能八按车型编码、长短轴、电量、年份等关键项在同一条定价车型中同时匹配，替代整段文字相似度匹配。",
-                          "功能八车型定价优先匹配包含年份的全部关键词并取从上至下第一条；无候选时忽略年份，其余关键词仍须同时命中，忽略年份后价格冲突时留空。",
-                          "功能八按车牌号是否包含“沪”选择沪牌或非沪定价sheet，区域填写与车型年份匹配规则保持不变。",
-                          "移除临时功能八，保留功能一至七。"
+                          "修正TOP11透视表缓存类型及小计总计索引，增加一致性校验。",
+                          "功能三新增整体类型营收汇总，更新模板及输出sheet名称，模板经租标签严格识别。",
+                          "解决了一些已知问题",
+                          "功能三新增关闭表指定违约金删除选项，可按需勾选。",
+                          "功能一支持其他费用部分支付余额补充；优化运行提示和关闭表临时选项位置。",
+                          "修复运行状态重复刷新导致的界面抖动；其他费用部分支付匹配新增独立步骤与命中明细。"
                       ]
 }
