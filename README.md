@@ -6,7 +6,6 @@
 
 **[下载正式版](https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest)** · **[历史版本](https://github.com/SHUN912/ExcelRelationTool-Releases/releases)** · **[问题反馈](https://github.com/SHUN912/ExcelRelationTool-Releases/issues)**
 
-> 功能是否可用，以已安装正式版本及对应 Release 说明为准。开发测试补丁不等同于正式安装包。
 
 ## 功能一览
 
