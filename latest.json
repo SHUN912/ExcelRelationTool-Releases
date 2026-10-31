@@ -1,20 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v055.4 r2",
-    "version_code":  554002,
-    "tag":  "v055.4-r2",
+    "version":  "v055.4 r3",
+    "version_code":  554003,
+    "tag":  "v055.4-r3",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r2/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r3/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "268ba6223634fbf4b9dd65f7d9148716904164de67d83d033e80db6308edce6f",
+    "sha256":  "66ed23ad6da41294a9e6c8a6bc0100640fb73dc6e24011701c2b500824440025",
     "release_notes":  [
-                          "修正TOP11透视表缓存类型及小计总计索引，增加一致性校验。",
-                          "功能三新增整体类型营收汇总，更新模板及输出sheet名称，模板经租标签严格识别。",
-                          "解决了一些已知问题",
-                          "功能三新增关闭表指定违约金删除选项，可按需勾选。",
-                          "功能一支持其他费用部分支付余额补充；优化运行提示和关闭表临时选项位置。",
-                          "修复运行状态重复刷新导致的界面抖动；其他费用部分支付匹配新增独立步骤与命中明细。"
+                          "修复本机映射为空或不完整时无法导入共享配置的问题。"
                       ]
 }
