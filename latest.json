@@ -1,15 +1,16 @@
 {
     "schema_version":  1,
-    "version":  "v055.4 r3",
-    "version_code":  554003,
-    "tag":  "v055.4-r3",
+    "version":  "v055.4 r5",
+    "version_code":  554005,
+    "tag":  "v055.4-r5",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r3/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r5/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "66ed23ad6da41294a9e6c8a6bc0100640fb73dc6e24011701c2b500824440025",
+    "sha256":  "e88a0e8b525754702c1269e0a092a1a1fcc68d6722041fa8891ee58f0337b120",
     "release_notes":  [
-                          "修复本机映射为空或不完整时无法导入共享配置的问题。"
+                          "营收类型模板调整、手工开票金额联动；配置共享与账单字段编辑按钮样式修复；构建回归使用固定测试模板。",
+                          "配置共享新增为账单指定字段值，保留原导入勾选逻辑；修复账单编辑复选框显示。"
                       ]
 }

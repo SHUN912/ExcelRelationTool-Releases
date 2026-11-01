@@ -1,15 +1,16 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.4 r3 Mac",
-  "version_code": 55400301,
-  "bundle_version": "554003.101",
+  "release": "v055.4 r5 Mac",
+  "version_code": 55400501,
+  "bundle_version": "554005.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r3/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "ad9df2a0278f26b130dba739ecf54977dabed6fd6104d21b16a284e1d4b86182",
-  "size_bytes": 110545715,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r5/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "88da36b50126a631252a0c497d9eeb8829e84d76398222745bfb9bcccfb964c1",
+  "size_bytes": 110928050,
   "minimum_macos": "14.5",
   "notes": [
-    "修复本机映射为空或不完整时无法导入共享配置的问题。"
+    "营收类型模板调整、手工开票金额联动；配置共享与账单字段编辑按钮样式修复；构建回归使用固定测试模板。",
+    "配置共享新增为账单指定字段值，保留原导入勾选逻辑；修复账单编辑复选框显示。"
   ]
 }
