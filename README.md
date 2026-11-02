@@ -4,7 +4,7 @@
 
 本仓库用于发布正式安装包、版本说明及客户端更新信息。业务公共资料、用户模板与可编辑映射由使用者维护，通过软件内的配置共享功能交换。
 
-**[下载正式版](https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest)** · **[历史版本](https://github.com/SHUN912/ExcelRelationTool-Releases/releases)** · **[问题反馈](https://github.com/SHUN912/ExcelRelationTool-Releases/issues)**
+**[下载正式版](https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest)** · **[历史版本](https://github.com/SHUN912/ExcelRelationTool-Releases/releases)** 
 
 
 ## 功能一览
