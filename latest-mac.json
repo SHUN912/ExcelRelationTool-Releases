@@ -1,16 +1,15 @@
 {
   "platform": "macos",
   "arch": "arm64",
-  "release": "v055.4 r5 Mac",
-  "version_code": 55400501,
-  "bundle_version": "554005.101",
+  "release": "v055.4 r6 Mac",
+  "version_code": 55400601,
+  "bundle_version": "554006.101",
   "asset_name": "ExcelRelationTool_Mac_arm64.dmg",
-  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r5/ExcelRelationTool_Mac_arm64.dmg",
-  "sha256": "88da36b50126a631252a0c497d9eeb8829e84d76398222745bfb9bcccfb964c1",
-  "size_bytes": 110928050,
+  "download_url": "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r6/ExcelRelationTool_Mac_arm64.dmg",
+  "sha256": "9546d86cfe72747db936f6deba557707a2dbc8265e3fc93092931e0f3ecab4ca",
+  "size_bytes": 111713795,
   "minimum_macos": "14.5",
   "notes": [
-    "营收类型模板调整、手工开票金额联动；配置共享与账单字段编辑按钮样式修复；构建回归使用固定测试模板。",
-    "配置共享新增为账单指定字段值，保留原导入勾选逻辑；修复账单编辑复选框显示。"
+    "修复经租整体类型实收、未收和已计入上月营收金额误包含手工开票账单的问题；关闭及调账统计口径保留。"
   ]
 }

@@ -1,16 +1,15 @@
 {
     "schema_version":  1,
-    "version":  "v055.4 r5",
-    "version_code":  554005,
-    "tag":  "v055.4-r5",
+    "version":  "v055.4 r6",
+    "version_code":  554006,
+    "tag":  "v055.4-r6",
     "published":  true,
     "mandatory":  false,
     "installer_name":  "ExcelRelationTool_Setup.exe",
-    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r5/ExcelRelationTool_Setup.exe",
+    "official_installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/download/v055.4-r6/ExcelRelationTool_Setup.exe",
     "installer_url":  "https://github.com/SHUN912/ExcelRelationTool-Releases/releases/latest/download/ExcelRelationTool_Setup.exe",
-    "sha256":  "e88a0e8b525754702c1269e0a092a1a1fcc68d6722041fa8891ee58f0337b120",
+    "sha256":  "2eacf68cd0ba818f95762da4a046d4857298b7bd166885e66e3c5b69161a62c9",
     "release_notes":  [
-                          "营收类型模板调整、手工开票金额联动；配置共享与账单字段编辑按钮样式修复；构建回归使用固定测试模板。",
-                          "配置共享新增为账单指定字段值，保留原导入勾选逻辑；修复账单编辑复选框显示。"
+                          "修复经租整体类型实收、未收和已计入上月营收金额误包含手工开票账单的问题；关闭及调账统计口径保留。"
                       ]
 }
